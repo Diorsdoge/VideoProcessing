@@ -46,5 +46,6 @@ if __name__ == '__main__':
 
 	cv2.imshow("Img", img)
 	cv2.imshow('merged_bgr', merged_bgr)
+	cv2.imwrite('test0_bgrhistoutput.png', merged_bgr)
 	cv2.waitKey(0)
 	cv2.destroyAllWindows()
